@@ -78,9 +78,10 @@ def main():
     entry2.grid(row = 2, column = 1)
     button2['command'] = lambda: multi_print(entry1.get(), int(entry2.get()))
     # -------------------------------------------------------------------------
-    # TODO: 8. As time permits, do other interesting GUI things!
+    # DONE: 8. As time permits, do other interesting GUI things!
     # -------------------------------------------------------------------------
-
+    check = ttk.Checkbutton()
+    check.grid(row = 3, column = 1)
     root.mainloop()
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

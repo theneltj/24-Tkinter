@@ -9,7 +9,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import tkinter
 from tkinter import ttk
 
-
+ 
 def main():
     """ Constructs a GUI with stuff on it. """
     # -------------------------------------------------------------------------
